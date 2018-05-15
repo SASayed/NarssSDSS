@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groups xmlns="http://www.isdc.ro/wro">
+	<group name='sdssLib'>
+		<css>/resources/css/structure.css</css>
+		<css>/resources/css/localize.css</css>
+	</group>
+	<group name='sdss'>
+		<group-ref>sdssLib</group-ref>
+	</group>
+</groups>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+             xmlns:oxm="http://www.springframework.org/schema/oxm" xmlns:context="http://www.springframework.org/schema/context"
+             xsi:schemaLocation="
+       		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+           	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+           	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+           	http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm.xsd">
+
+    
+    <beans:bean id="soapClientForRequest" class="org.narss.sdss.controllers.SOAPClientSAAJ"/>
+
+    <beans:bean id="soapClientForResponse" class="org.narss.sdss.controllers.SOAPClientSAAJ1"/>
+    
+    <beans:bean id="mcda" class="org.narss.sdss.dto.MCDA"/>
+    
+    <beans:bean id="mcdaList" class="org.narss.sdss.controllers.MCDAList"/>
+    
+    <beans:bean id="model" class="org.narss.sdss.dto.Model"/>
+       
+    <beans:bean id="caseStudy" class="org.narss.sdss.dto.CaseStudy"/>
+    
+    <beans:bean id="layerManger" class="Manager.LayerManager"/>
+    <beans:bean id="styleManger" class="Manager.StyleManager"/>
+    <beans:bean id="clientAuthentication" class="org.narss.sdss.controllers.ClientAuthentication"/>
+    
+    <beans:bean id="zpfs" class="org.narss.sdss.controllers.ZPFSRename"/>
+    
+    <beans:bean id="reportmanger" class="org.narss.sdss.controllers.ReportManger"/>
+
+    <beans:bean id="tool" class="org.narss.sdss.dto.Tool"/>
+    
+    <beans:bean id="question" class="org.narss.sdss.dto.Question"/>
+    
+    <beans:bean id="ToolManger" class="Manager.ToolManager"/>
+    
+    <beans:bean id="model_Tool_Inputs" class="org.narss.sdss.dto.Model_Tool_Inputs"/>
+    
+    <beans:bean id="toolDaoImpl" class="org.narss.sdss.daoImpl.ToolDaoImpl"/>
+    
+    <beans:bean id="inputDaoImpl" class="org.narss.sdss.daoImpl.InputDaoImpl"/>
+    
+    <beans:bean id="mcdaDaoImpl" class="org.narss.sdss.daoImpl.MCDADaoImpl"/>
+    
+    <beans:bean id="modelDaoImpl" class="org.narss.sdss.daoImpl.ModelDaoImpl"/> 
+     
+    <beans:bean id="model_Tool_InputsDaoImpl" class="org.narss.sdss.daoImpl.Model_Tool_InputsDaoImpl"/> 
+    
+    <beans:bean id="questionDaoImpl" class="org.narss.sdss.daoImpl.QuestionDaoImpl"/>
+    
+    <beans:bean id="caseStudyDaoImpl" class="org.narss.sdss.daoImpl.CaseStudyDaoImpl"/>
+     <beans:bean id="postgreSQLJDBC" class="org.narss.sdss.postgreSQL.PostgreSQLJDBC"/>
+    
+    <beans:bean id="chl" class="org.narss.sdss.water.pollution.Chlorophyll"/>
+    <beans:bean id="ssc" class="org.narss.sdss.water.pollution.SSC"/>
+    <beans:bean id="tds" class="org.narss.sdss.water.pollution.TDS"/>
+    <beans:bean id="tss" class="org.narss.sdss.water.pollution.TSS"/>
+    <beans:bean id="tur" class="org.narss.sdss.water.pollution.Turbidity"/>
+    <beans:bean id="point" class="org.narss.sdss.water.pollution.SamplePoint"/>
+    
+    <beans:bean id="department" class="org.narss.sdss.dto.Department"/>
+    <beans:bean id="color" class="org.narss.sdss.dto.color"/>
+    <beans:bean id="report" class="org.narss.sdss.dto.Report"/>
+    <beans:bean id="departmentDaoImpl" class="org.narss.sdss.daoImpl.DepartmentDaoImpl"/>
+    <beans:bean id="colorDaoImpl" class="org.narss.sdss.daoImpl.ColorDaoImpl"/>
+    <beans:bean id="reportDaoImpl" class="org.narss.sdss.daoImpl.ReportDaoImpl"/>
+    <beans:bean id="modelToolInputsDaoImpl" class="org.narss.sdss.daoImpl.Model_Tool_InputsDaoImpl"/>
+    <beans:bean id="userDaoImpl" class="org.narss.sdss.daoImpl.UserDaoImpl"/>
+    <beans:bean id="geoLayerDAOImpl" class="org.narss.sdss.daoImpl.GeoLayerDAOImpl"/>
+    <beans:bean id="style" class="org.narss.sdss.dto.Style"/>
+    <beans:bean id="styleDaoImpl" class="org.narss.sdss.daoImpl.StyleDaoImpl"/>
+</beans:beans>

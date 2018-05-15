@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+<dwr>
+    <allow>
+        <create creator="new" javascript="JDate">
+            <param name="class" value="java.util.Date"/>
+        </create>
+        <create creator="new" javascript="ToolInput">
+            <param name="class" value="org.narss.sdss.dto.Input"/>
+        </create>
+    
+        <create creator="new" javascript="LayerManager">
+            <param name="class" value="Manager.LayerManager"/>
+        </create>
+        
+        <create creator="new" javascript="GeoServerRESTPublisher">
+            <param name="class" value="it.geosolutions.geoserver.rest.GeoServerRESTPublisher"/>
+        </create>
+        
+        <create creator="new" javascript="Tool">
+            <param name="class" value="org.narss.sdss.dto.Tool"/>
+        </create>
+    
+        <create creator="new" javascript="ToolManager">
+            <param name="class" value="Manager.ToolManager"/>
+        </create>
+        
+        <create creator="new" javascript="Model">
+            <param name="class" value="org.narss.sdss.dto.Model"/>
+        </create>
+        
+        <create creator="new" javascript="Properties">
+            <param name="class" value="org.narss.sdss.controllers.Properties"/>
+        </create>
+        
+        <create creator="new" javascript="ZPFS">
+            <param name="class" value="org.narss.sdss.controllers.ZPFSRename"/>
+        </create>
+        
+
+        <create creator="new" javascript="CloseableHttpClient">
+            <param name="class" value="org.apache.http.impl.client.CloseableHttpClient"/>
+        </create>
+        
+
+        <create creator="new" javascript="ToolList">
+            <param name="class" value="org.narss.sdss.controllers.ToolList"/>
+        </create>
+        
+        <create creator="new" javascript="Swap">
+            <param name="class" value="Manager.Swap"/>
+        </create>
+
+        
+        <convert match="org.narss.sdss.controllers.Properties" converter="bean" javascript="Properties"/>
+        <convert match="Manager.Swap" converter="bean" javascript="Swap"/>
+        <convert match="org.narss.sdss.controllers.Tool" converter="bean" javascript="Tool"/>
+        <convert match="org.narss.sdss.controllers.Model" converter="bean" javascript="Model"/>
+        <convert match="org.narss.sdss.controllers.ToolInput" converter="bean" javascript="ToolInput"/>
+        <convert match="org.narss.sdss.controllers.ToolList" converter="bean" javascript="ToolList"/>  
+        <convert match="org.narss.sdss.controllers.Layer" converter="bean" javascript="Layer"/> 
+        <convert match="org.w3c.dom.NodeList" converter="bean" javascript="NodeList"/> 
+        <convert match="org.apache.http.HttpHost" converter="bean" javascript="HttpHost"/> 
+        <convert match="org.apache.http.HttpRequest" converter="bean" javascript="HttpRequest"/> 
+        <convert match="org.apache.http.protocol.HttpContext" converter="bean" javascript="HttpContext"/> 
+        <convert match="org.apache.http.HttpResponse" converter="bean" javascript="HttpResponse"/> 
+        <convert match="org.apache.http.client.ResponseHandler" converter="bean" javascript="ResponseHandler"/> 
+
+     
+    </allow>
+</dwr>

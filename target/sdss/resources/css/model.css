@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2017, 2:10:24 AM
+    Author     : Administrator
+*/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    z-index: 10; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.pop-title{
+        border-radius: 20px;
+    padding-bottom: 25px;
+    /*background-color: #292f36; */
+    padding-top: 10px; 
+    border-radius: 6x;
+}
+.geoLayers{
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+   /* display: none;*/
+}
+.clear{
+    float:right;
+    color: white;
+    background-color: #455A64;
+    margin: 3px;
+}
+#slider:hover {
+    cursor:pointer;
+}
+.pointer:hover{ cursor: pointer; }
+.subtitle{
+    font-size: 14px;
+    padding-left: 2%;
+}
+/* Modal Content */
+.newModal-content {
+        border-radius: 20px;
+    background-color: #e8e8e8;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+    
+}
+
+/* The Close Button */
+.close, .removeTool{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus, 
+.removeTool:hover,
+.removeTool:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*css for meta info icon*/
+.rowContainer .tableCell {
+    height: 17px;
+    color: #4E4E4E;
+    overflow: hidden;
+    padding: 2px 4px 2px 3px;
+}
+.tableRow {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.notExpanded {
+    background: url(../../resources/media/ogp-sprite.png) no-repeat scroll -83px -63px
+ transparent;
+}
+.expanded {
+    background: url(../../resources/media/ogp-sprite.png) no-repeat scroll -92px -115px
+ transparent;
+}
+.expandControl {
+    height: 17px;
+    width: 11px;
+}
+.typeIcon {
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+}
+.polygonIcon {
+    background: url(../../resources/media/ogp-sprite.png) no-repeat scroll -101px -36px
+ transparent;
+    width: 17px;
+    height: 17px;
+}
+.button {
+    cursor: pointer;
+}
+.viewIdentifyControl {
+    background: url(../../resources/media/ogp-sprite.png) no-repeat scroll -131px -35px
+        transparent;
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+.tableCell > div {
+    margin: auto;
+}
+.tableCell {
+    display: inline-block;
+}
+
+.zoomToLayerControl {
+    left: 104px;
+    background: url(../../resources/media/ogp-sprite.png) no-repeat scroll -9px -90px
+        transparent;
+    height: 17px;
+    width: 17px;
+    top: 1px;
+    float: right;
+}
+
+
+/*identify table css*/
+.ui-widget-content {
+    border: 1px solid #999999;
+    background: #ffffff url(images/ui-bg_flat_0_ffffff_40x100.png) 50% 50% repeat-x;
+    color: #555555;
+}
+
+.ui-widget {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.ui-widget-header {
+    border: 1px solid #999999;
+    background: linear-gradient(#EAEAEA, #D3D3D3);
+    font-size: 14px;
+    color: #404143;
+    font-weight: bold;
+}
+.ui-dialog .ui-dialog-title {
+    float: left;
+   /* margin: .6em 0 .1em;*/
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #404143;
+    background: linear-gradient(#EAEAEA, #D3D3D3);
+    padding: .3em;
+}
+.ui-dialog-content{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.arrow-margin {
+    margin: 13px 0px 0 10px;
+}

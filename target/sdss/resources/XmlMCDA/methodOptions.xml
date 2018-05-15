@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.0.xsd">
+					<methodParameters>
+						<parameter id="chart_type" name="Chart type">
+							<value>
+            					<label>barChart</label>
+       						 </value>
+						</parameter>
+						<parameter id="order_by" name="Order by">
+							<value>
+            					<label>values</label>
+       						 </value>
+						</parameter>
+						<parameter id="order" name="Order">
+							<value>
+            					<label>increasing</label>
+       						 </value>
+						</parameter>
+						<parameter id="use_color" name="Colors in the chart">
+							<value>
+            					<label>false</label>
+       						 </value>
+						</parameter>
+						<parameter id="initial_color" name="Initial color">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="final_color" name="Final color">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="chart_title" name="Chart title">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="domain_axis" name="Domain axis label">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter >
+						<parameter id="range_axis" name="Range axis label">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+					</methodParameters>
+               </xmcda:XMCDA>

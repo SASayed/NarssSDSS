@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <SOAP-ENV:Envelope
+      SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+      xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+      xmlns:xsi="http://www.w3.org/1999/XMLSchema-instance"
+      xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+      xmlns:xsd="http://www.w3.org/1999/XMLSchema">
+    <SOAP-ENV:Body>
+    <submitProblem SOAP-ENC:root="1"><methodPlotOptions xsi:type="xsd:string"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.0 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.0.xsd">
+					<methodParameters>
+						<parameter id="chart_type" name="Chart type">
+							<value>
+            					<label>barChart</label>
+       						 </value>
+						</parameter>
+						<parameter id="order_by" name="Order by">
+							<value>
+            					<label>values</label>
+       						 </value>
+						</parameter>
+						<parameter id="order" name="Order">
+							<value>
+            					<label>increasing</label>
+       						 </value>
+						</parameter>
+						<parameter id="use_color" name="Colors in the chart">
+							<value>
+            					<label>false</label>
+       						 </value>
+						</parameter>
+						<parameter id="initial_color" name="Initial color">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="final_color" name="Final color">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="chart_title" name="Chart title">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+						<parameter id="domain_axis" name="Domain axis label">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter >
+						<parameter id="range_axis" name="Range axis label">
+							<value>
+            					<label></label>
+       						 </value>
+						</parameter>
+					</methodParameters>
+               </xmcda:XMCDA>]]></methodPlotOptions><alternatives xsi:type="xsd:string"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xmcda:XMCDA xmlns:xmcda="http://www.decision-deck.org/2012/XMCDA-2.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd">
+	<projectReference>
+		<comment/>
+	</projectReference>
+	<alternatives><alternative id="A0" name="3"/><alternative id="A1" name="5"/><alternative id="A2" name="9"/><alternative id="A3" name="11"/><alternative id="A4" name="14"/><alternative id="A5" name="19"/><alternative id="A6" name="21"/><alternative id="A7" name="29"/><alternative id="A8" name="30"/><alternative id="A9" name="31"/></alternatives>
+	</xmcda:XMCDA>]]></alternatives><alternativesValues xsi:type="xsd:string"><![CDATA[<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='xmcdaXSL.xsl'?>
+<xmcda:XMCDA xmlns:xmcda='http://www.decision-deck.org/2012/XMCDA-2.2.1' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.decision-deck.org/2012/XMCDA-2.2.1 http://www.decision-deck.org/xmcda/_downloads/XMCDA-2.2.1.xsd'>
+
+<alternativesValues>
+<alternativeValue><alternativeID>A0</alternativeID><value><real>0.326</real></value></alternativeValue>
+<alternativeValue><alternativeID>A1</alternativeID><value><real>0.326</real></value></alternativeValue>
+<alternativeValue><alternativeID>A2</alternativeID><value><real>0.326</real></value></alternativeValue>
+<alternativeValue><alternativeID>A3</alternativeID><value><real>83.9</real></value></alternativeValue>
+<alternativeValue><alternativeID>A4</alternativeID><value><real>75.6</real></value></alternativeValue>
+<alternativeValue><alternativeID>A5</alternativeID><value><real>49.454</real></value></alternativeValue>
+<alternativeValue><alternativeID>A6</alternativeID><value><real>75.6</real></value></alternativeValue>
+<alternativeValue><alternativeID>A7</alternativeID><value><real>75.6</real></value></alternativeValue>
+<alternativeValue><alternativeID>A8</alternativeID><value><real>49.454</real></value></alternativeValue>
+<alternativeValue><alternativeID>A9</alternativeID><value><real>53.436</real></value></alternativeValue>
+</alternativesValues>
+</xmcda:XMCDA>]]></alternativesValues></submitProblem>
+    </SOAP-ENV:Body>
+    </SOAP-ENV:Envelope>

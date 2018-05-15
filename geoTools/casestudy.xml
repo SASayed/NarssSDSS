@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+--><casestudies><casestudy><id>Soil_Case_20170302115558</id><name>Case_One</name><description>NARSS decision support system final report, soil suitability analysis for several crops to determine the&#13;
+overall suitability of a given area or a farm,With higher frequency of dry periods, efficient land utilisation for agricultural&#13;
+production systems is required for the survival of most farms in El Alamein. Therefore land evaluation&#13;
+techniques and their resulting soil or land suitability maps must address the economic viability and provide&#13;
+information for management decisions at field or farm scale. Modern precision agricultural practices require&#13;
+across-farm and/or within-field soil variability which should be accounted for in the suitability assessment&#13;
+for it to be an effective tool for management decisions. Soil function under a number of land uses should also&#13;
+be assessed as it provides different options to the farmer and thus reduces the farmerâ&#128;&#153;s dependency on a&#13;
+single land use.</description><status>New</status><model>New_Model_20170330111127</model><mcda>mcda_20174169421</mcda></casestudy><casestudy><id>Water_Pollution _20170507114344</id><name>Water_Pollution </name><description>Water Pollution Case Study</description><status>New</status><model>New_Model_20170330111127</model><mcda>mcda_201757135051</mcda></casestudy></casestudies>
